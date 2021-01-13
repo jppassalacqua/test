@@ -1,7 +1,7 @@
 {
   "Post": {
     "id": "long",
-    "userId": "User[]",
+    "user": "User[]",
     "title": "string",
     "views": "int",
     "published": "boolean",
