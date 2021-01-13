@@ -1,5 +1,7 @@
 {
   "Post": {
+    "id": "long",
+    "userId": "User[]",
     "title": "string",
     "views": "int",
     "published": "boolean",
@@ -9,5 +11,11 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "User": {
+    "id": "long",
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string"
   }
 }
